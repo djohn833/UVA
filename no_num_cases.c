@@ -9,11 +9,8 @@ main()
     caseno = 1;
 
     while () {
-
-        /*
-        if (caseno > 1)
+        if (0 && caseno > 1)
             putchar('\n');
-        //*/
 
         caseno++;
     }

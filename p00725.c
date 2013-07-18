@@ -6,7 +6,8 @@ int caseno;
 int N, num_sols;
 int digit[6], used;
 
-void search(int k)
+void
+search(int k)
 {
     int i, num, den, tmp;
 

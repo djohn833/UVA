@@ -1,0 +1,12 @@
+input format
+output format
+datatype size (mostly int)
+
+test list
+    always put input in a file (e.g., p12345.in) so you can make sure
+the changes don't make a test fail that used to pass
+    diff the new version's output with the old output
+
+    example cases
+    test the maximum test case size (use script to generate if needed)
+
