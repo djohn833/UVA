@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+make ${1}
+
+./${1} < ${1}.in > ${1}.actual
+
+echo "Diff output:"
+diff ${1}.actual ${1}.target
+
